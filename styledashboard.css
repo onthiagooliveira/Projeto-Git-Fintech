@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700&display=swap');
+
+body {
+  font-family: "Poppins"; 
+  font-size: medium;
+  font-weight: 200;  
+}
+
+.h1{
+  font-weight: 300;
+  color: #1f1f1f;
+}
+
+.feather {
+  width: 16px;
+  height: 16px;
+}
+
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 100; /* Behind the navbar */
+  padding: 100px 0 0; /* Height of navbar */
+  box-shadow: inset 1px 0 0 rgba(0, 0, 0, );
+}
+
+h1,h2 {
+  font-family:'Poppins';
+  font-style:unset; 
+  font-weight: 100;
+  color: #1f1f1f;
+}
+
+@media (max-width: 767.98px) {
+  .sidebar {
+    top: 5rem;
+  }
+}
+
+.sidebar-sticky {
+  position: relative;
+  top: 0;
+  height: calc(100vh - 48px);
+  padding-top: .5rem;
+  overflow-x: hidden;
+  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+}
+
+.sidebar .nav-link {
+  font-weight: 400;
+  font-size: 16;
+  color: #1f1f1f;
+}
+
+.sidebar .nav-link .feather {
+  margin-left: 10px;
+  font-weight: 400;
+  color: #fecc2a;
+}
+
+.sidebar .nav-link.active {
+  font-weight: 500;
+  color: #fecc2a;
+}
+
+.sidebar .nav-link:hover .feather,
+.sidebar .nav-link.active .feather {
+  color: #303030;
+}
+
+.sidebar-heading {
+  font-size: .65rem;
+  font-weight: 500;
+}
+
+.navbar {
+  background: #1f1f1f;
+  padding: 1rem 8rem;
+  font-size: 1.3rem;  
+  font-weight: 300;
+  
+}
+
+.navbar .navbar-brand{
+  font-size: 1.3rem;
+  font-weight: 200;
+      
+}
+
+a.nav-link.disabled {
+  color: #E5E5E5;
+  font-size: 1.1rem;
+  padding: 0 0.8rem;
+}
+.table-responsive{
+  font-weight: 400;
+  color: #303030;
+  padding: 10px ;
+
+}
